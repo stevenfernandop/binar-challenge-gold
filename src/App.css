@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Arial;
+}
+.item-nav {
+  color: black;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+.img-banner {
+  width: 671px;
+}
+.text-h2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #000000;
+}
+.text-p1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.img-service {
+  width: 374px;
+  height: 374px;
+}
+.text-service-h4 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.text-service-p2 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+/* ul {
+  list-style: url(assets/img/icon_checklist.png);
+  margin-bottom: 20px;
+} */
+.img-service-ceklis {
+  width: 26px;
+  height: 24px;
+  padding: 7px;
+  background-color: #cfd4ed;
+  border-radius: 50%;
+  color: #0d28a6;
+  margin-right: 8px;
+}
+.servi {
+  margin-bottom: 20px;
+}
+.whyusTitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+.whyusDesc {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+.img-testi {
+  width: 80px;
+  height: 80px;
+}
+.testi-desc {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+.btn-testi {
+  margin: 24px 5px;
+}
+
+.card-sewa {
+  margin-top: 106px;
+  width: 1168px;
+  height: 326px;
+  background-color: #0d28a6;
+  border-radius: 13px;
+}
+.text-sewa-h2 {
+  padding-top: 62px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: white;
+  padding-bottom: 16px;
+}
+.text-sewa-p {
+  margin: auto;
+  width: 468px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  padding-bottom: 60px;
+}
+.tbl-banner {
+  color: #ffffff;
+  font-weight: 700;
+  padding: 8px 12px;
+  background: #5cb85f;
+  border-radius: 2px;
+}
+.tbl-sewa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 8px 12px;
+  background: #5cb85f;
+  border-radius: 2px;
+}
+.navbtm {
+  line-height: 33px;
+}
+
+.faq-h1 {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.faq-p {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.acording-header {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+#ourservice {
+  padding-top: 105px;
+  padding-bottom: 169px;
+}
+#cardsewa {
+  padding-top: 105px;
+  padding-bottom: 100px;
+}
+#faq {
+  padding-bottom: 150px;
+}
+#testimoni {
+  padding-top: 124px;
+}
+.formList {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-content: center; */
+}
+.colList {
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 740px) {
+  /* body{
+    padding-left: 16px;
+    padding-right: 16px;
+  } */
+  .hero-left {
+    columns: 12;
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+  }
+  .text-h2 {
+    padding-top: 32px;
+    font-size: 36px;
+    padding-bottom: 16px;
+    padding-left: 136px;
+  }
+  .text-p1 {
+    width: 328px;
+    padding-bottom: 16px;
+    padding-left: 136px;
+  }
+  .tbl-banner {
+    width: 180px !important;
+  }
+  .hero-right {
+    columns: 12;
+  }
+  .img-banner {
+    margin-top: 24px;
+    width: 380.22px;
+    height: 199px;
+    left: 360.22px;
+    top: 458px;
+  }
+  #ourservice {
+    padding-bottom: 10px;
+  }
+  .service-left {
+    columns: 12;
+  }
+  .img-service {
+    margin-top: -20px;
+    width: 298px;
+    height: 298px;
+    margin-bottom: 57px;
+  }
+  #faq {
+    padding-bottom: 78px;
+  }
+  .faq-left {
+    text-align: center;
+  }
+  .whyus-row1 {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .footerrow {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 60px;
+  }
+  #cardsewa {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    /* overflow: hidden; */
+    /* height: 820px; */
+    /* padding-bottom: 100px; */
+  }
+  .card-sewa {
+    height: 420px;
+  }
+  .text-sewa-h2 {
+    /* padding-top: 64px; */
+    font-size: 24px;
+    padding-bottom: 16px;
+    width: 212px;
+    /* height: 108px; */
+    text-align: center;
+    margin: auto;
+  }
+  .text-sewa-p {
+    width: 212px;
+    height: 100px;
+    padding-top: 0px;
+    margin-bottom: 40px;
+  }
+  .sizetext {
+    font-size: 12px;
+  }
+
+  .formList {
+    flex-direction: column;
+  }
+}
